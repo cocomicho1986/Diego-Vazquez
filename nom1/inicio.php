@@ -6,7 +6,6 @@
 </head>
 
 <body>
-<?php echo "Probando.." 
- ?> 
+<p>Probando..</p>
 </body>
 </html>
