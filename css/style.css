@@ -70,7 +70,21 @@ footer {
     position: sticky;
     bottom: 0;
 }
-
+.nombres{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.texto{
+    color:rgb(51, 51, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.titulogrilla{
+    color:crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
 
 
 /* Responsive: Ajustes para pantallas pequeñas */
