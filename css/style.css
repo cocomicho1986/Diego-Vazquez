@@ -48,9 +48,9 @@ nav div {
     padding: 0 20px;
 }
 .navigation a:hover {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
-    border: 1px #f60 solid;
+    border: 1px white solid;
     text-decoration: underline;
 }
 
