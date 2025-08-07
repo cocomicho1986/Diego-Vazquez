@@ -17,6 +17,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 100;
+    
 }
 
 nav img {
@@ -102,8 +103,21 @@ footer {
 .fondocontacto{
     background:linear-gradient(red,gray);
 }
+.foot{
+    display:flex;
 
-
+}
+.foot::after{
+    content:"Diego Vazquez";
+    font-weight: bold;
+    margin: 0.5em 1.5em 1.5em 1.5em;
+    
+}
+.foot:hover{
+   color:aqua;
+   text-shadow: 1.5;
+   
+}
 
 /* Responsive: Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
