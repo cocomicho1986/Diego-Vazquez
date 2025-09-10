@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CRUD Básico - Mi Lista</title>
+  <!-- Vinculamos el CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de invitados</h1>
+    <p>Agregar lista de invitados y marcar los asistentes</p>
+
+    <!-- Formulario para agregar o modificar -->
+    <form id="formElemento">
+      <input 
+        type="text" 
+        id="dato" 
+        placeholder="Escribe algo" 
+        required 
+      />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <h2>Lista de invitados</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="listaElementos">
+        <!-- Los elementos se agregarán dinámicamente -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Vinculamos el JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
