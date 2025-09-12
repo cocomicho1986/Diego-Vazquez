@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #eee;
+    font-family: Arial, sans-serif; 
+}
+
+nav {
+    background: linear-gradient(blue,red);
+    /*background-color: rgb(0, 139, 116);*/
+    text-align: center;
+    padding: 10px 0; /* Espaciado vertical */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+nav img {
+    width: 80px;
+    max-width: 100%; /* Para que no se salga del contenedor */
+    height: auto;
+    margin: 5px;
+    transition: width 0.3s ease; /* Suaviza el cambio en tamaño */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-size: 1.0rem;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+/* Contenedor para alinear logo y enlaces */
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos bajen si no hay espacio */
+    gap: 15px; /* Espacio entre elementos */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation a:hover {
+    background:linear-gradient(crimson,white);
+    color: black;
+    /*border: 1px white solid;*/
+    text-decoration: underline;
+    
+}
+
+.hover-effect {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  /*transform: scale(1.1);*/
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background:linear-gradient(red,violet);
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+}
+.nombres{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.texto{
+    color:rgb(51, 51, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.titulogrilla{
+    color:crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.titulogrilla h4:hover{
+    color:blueviolet;
+    text-shadow: 1.5;
+   
+   
+}
+/*Formulario*/
+.campoform{
+    background: linear-gradient(red,rgb(128, 128, 128));
+    
+   
+}
+.fondocontacto{
+    background:linear-gradient(red,gray);
+}
+.foot{
+    display:flex;
+
+}
+.foot::after{
+    content:"Diego Vazquez";
+    font-weight: bold;
+    margin: 0.5em 1.5em 1.5em 1.5em;
+    
+}
+.foot:hover{
+   color:aqua;
+   text-shadow: 1.5;
+   
+}
+
+/* Responsive: Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    nav a {
+        font-size: 0.9rem;
+        margin: 0 10px;
+    }
+
+    nav img {
+        width: 60px;
+    }
+
+    nav div {
+        gap: 10px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 0.8rem;
+        margin: 0 5px;
+    }
+
+    nav img {
+        width: 50px;
+    }
+
+    nav div {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav a {
+        margin: 3px 0;
+    }
+}
