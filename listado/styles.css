@@ -12,6 +12,10 @@ body {
 .fondoDegradee{
   background:linear-gradient(red,orange)
 }
+header{
+  font-size: x-small;
+  text-align: center;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; /* Grosor de títulos */
