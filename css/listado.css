@@ -1,0 +1,160 @@
+/* ========================================
+   🎨 ESTILOS ESTÉTICOS — SOLO APARIENCIA
+   (Fuentes, colores, bordes, sombras, hover)
+   ======================================== */
+
+/* === FUENTES Y COLORES GLOBALES === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333; 
+ 
+}
+.fondoDegradee{
+  background:linear-gradient(red,orange)
+}
+header{
+  font-size: x-small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; /* Grosor de títulos */
+  color: #0000FF;   /* Color de títulos */
+}
+
+p {
+  color: #0000FF;      /* Color de párrafos */
+  font-size: 1rem;  /* Tamaño base */
+  text-align: center;
+}
+
+/* === INPUT === */
+#dato {
+  border: 2px solid #007bff;        /* Borde estético */
+  border-radius: 8px;               /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0,123,255,0.1); /* Sombra suave */
+  font-size: 1rem;
+  color: #0000FF;
+  background:linear-gradient(rgb(116, 112, 112),rgb(230, 230, 236));
+}
+
+#dato:focus {
+  outline: none;
+  border-color: #0056b3;            /* Color al enfocar */
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.25); /* Sombra de foco */
+}
+
+/* === BOTÓN "AGREGAR" (Bootstrap .btn-primary) === */
+.btn-primary {
+  background-color: #007bff !important;     /* Color de fondo */
+  border-color: #007bff !important;         /* Color del borde */
+  color: white !important;                  /* Color del texto */
+  font-weight: 600 !important;              /* Grosor del texto */
+  border-radius: 8px !important;            /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0,123,255,0.2) !important; /* Sombra */
+  transition: all 0.2s ease !important;     /* Transición suave */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3 !important;     /* Color hover */
+  border-color: #0056b3 !important;
+  box-shadow: 0 6px 12px rgba(0,86,179,0.3) !important; /* Sombra hover */
+  transform: translateY(-1px);              /* Efecto levantar */
+}
+
+/* === ENCABEZADO DE TABLA (.table-light) === */
+.table-light {
+  background-color: #e3f2fd !important;     /* Fondo azul muy claro */
+  color: #007bff !important;                /* Color de texto */
+  font-weight: 600 !important;              /* Negrita */
+  border-bottom: 2px solid #007bff !important; /* Borde inferior */
+}
+
+/* === BOTONES PERSONALIZADOS (generados por script.js) === */
+
+/* Botón Completar */
+.btn-completar {
+  background-color: #072cff !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 2px 4px rgba(7, 44, 255, 0.2) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-completar:hover {
+  background-color: #0099e0 !important;
+  box-shadow: 0 4px 8px rgba(0, 153, 224, 0.3) !important;
+  transform: translateY(-1px);
+}
+
+/* Botón Editar */
+.btn-edit {
+  background-color: #ffc107 !important;
+  color: #212529 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 2px 4px rgba(255, 193, 7, 0.2) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800 !important;
+  box-shadow: 0 4px 8px rgba(224, 168, 0, 0.3) !important;
+  transform: translateY(-1px);
+}
+
+/* Botón Eliminar */
+.btn-delete {
+  background-color: #dc3545 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 2px 4px rgba(220, 53, 69, 0.2) !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-delete:hover {
+  background-color: #c82333 !important;
+  box-shadow: 0 4px 8px rgba(200, 35, 51, 0.3) !important;
+  transform: translateY(-1px);
+}
+
+/* === ESTADO "COMPLETADA" (aplicado dinámicamente) === */
+.completado {
+  text-decoration: line-through !important;
+  color: #888 !important;
+  font-style: italic !important;
+}
+
+/* === CAJAS PERSONALIZADAS (tus clases: border, rounded, shadow) === */
+.border {
+  border: 2px solid #e0e0e0 !important;
+}
+
+.rounded {
+  border-radius: 12px !important;
+}
+
+.shadow {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1) !important;
+}
+
+/* === FONDO BLANCO PERSONALIZADO === */
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+/* === TEXTO CENTRADO (solo color/fuente, no alineación) */
+.text-center {
+  color: #0000FF !important;
+  font-weight: 500 !important;
+}
+#listaElementos{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
